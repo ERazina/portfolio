@@ -1,10 +1,10 @@
 import React from 'react';
-import About from './components/About/about';
+// import About from './components/About/about';
 // import Layout from './components/Layout/Layout';
 import Resume from './components/Resume/Resume';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from './components/Layout/Layout';
-import OpenAi from './components/OpenAI/OpenAi';
+// import OpenAi from './components/OpenAI/OpenAi';
 
 
 function App() {

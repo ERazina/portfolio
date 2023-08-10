@@ -1,16 +1,16 @@
 import React from 'react';
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import './footer.scss';
 
 
 function Footer() {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
       <footer className="footer">
         <div className="container">
           <row>
-          {t('copyright')} 2023 Elina Razina
+            Copyright 2023 Elina Razina
           </row>
         </div>
       </footer>

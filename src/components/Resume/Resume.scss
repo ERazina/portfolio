@@ -1,4 +1,4 @@
-.resume{
+.resume {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     width: 1024px;
 }
 
-.photo{
+.photo {
     margin-top: 40px;
     background-image: url(../../images/me1.jpeg);
     background-repeat: no-repeat;
@@ -48,6 +48,12 @@
     gap: 20px;
     grid-template-columns: repeat(5, 1fr);
     margin-bottom: 40px;
+
+    &-badge{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .link-cv {
@@ -65,31 +71,29 @@
     background: white;
 }
 
-
-.social{
+.social {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px;
 
-    &-link{
-        // margin-top: 40px;
+    &-link {
         background-repeat: no-repeat;
         background-size: contain;
-        width: 24px;
-        height: 24px;
+        width: 28px;
+        height: 28px;
         border-radius: 50%;
         cursor: pointer;
     }
 
-    &-link-telegram{
+    &-link-telegram {
         background-image: url(../../images/telegram.png);
     }
 
-    &-link-whatsapp{
+    &-link-whatsapp {
         background-image: url(../../images/whatsapp.png);
     }
 
-    &-link-email{
+    &-link-email {
         background-image: url(../../images/email.png);
     }
 }

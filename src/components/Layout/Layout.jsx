@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import { NavLink, Outlet, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import './Layout.scss';
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
-import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
+// import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 
 const Layout = () => {
 
   return (
     <>
-    <header className="header">
+    {/* <header className="header"> */}
       {/* <nav>
          <ul>
           <li className="list-item">
@@ -24,8 +24,8 @@ const Layout = () => {
         </ul> 
       </nav> */}
       {/* <ThemeSwitcher /> */}
-      <LanguageSwitcher />
-      </header>
+      {/* <LanguageSwitcher /> */}
+      {/* </header> */}
       <div className="layout">
         <Outlet />
       </div>
