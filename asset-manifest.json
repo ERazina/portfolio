@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9a76f00f.chunk.css",
+    "main.js": "/portfolio/static/js/main.bb17f48b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bb17f48b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0b24e171.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0b24e171.js.map",
+    "static/js/2.92d92697.chunk.js": "/portfolio/static/js/2.92d92697.chunk.js",
+    "static/js/2.92d92697.chunk.js.map": "/portfolio/static/js/2.92d92697.chunk.js.map",
+    "static/js/3.8cf01adb.chunk.js": "/portfolio/static/js/3.8cf01adb.chunk.js",
+    "static/js/3.8cf01adb.chunk.js.map": "/portfolio/static/js/3.8cf01adb.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.9a76f00f.chunk.css.map": "/portfolio/static/css/main.9a76f00f.chunk.css.map",
+    "static/js/2.92d92697.chunk.js.LICENSE.txt": "/portfolio/static/js/2.92d92697.chunk.js.LICENSE.txt",
+    "static/media/Resume.scss": "/portfolio/static/media/whatsapp.209a7d04.png",
+    "static/media/getFetch.cjs": "/portfolio/static/media/getFetch.5fde86e3.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b24e171.js",
+    "static/js/2.92d92697.chunk.js",
+    "static/css/main.9a76f00f.chunk.css",
+    "static/js/main.bb17f48b.chunk.js"
+  ]
+}
