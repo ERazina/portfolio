@@ -1,0 +1,17 @@
+{
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": [
+                "*.*"
+            ],
+            "options": {
+                "tabWidth": 4,
+                "parser": "json5",
+                "quoteProps": "preserve",
+                "singleQuote": false,
+                "trailingComma": "all"
+            }
+        }
+    ]
+}

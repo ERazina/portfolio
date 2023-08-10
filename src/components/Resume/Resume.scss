@@ -1,0 +1,95 @@
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: auto; 
+    width: 1024px;
+}
+
+.photo{
+    margin-top: 40px;
+    background-image: url(../../images/me1.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.location {
+    font-size: 20px;
+}
+
+.email {
+    color: rgb(13, 146, 201);
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.badge{
+    border: 1px solid white;
+    padding: 8px 32px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.skills {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 40px;
+}
+
+.link-cv {
+    padding: 8px 16px;
+    background-color: rgb(13, 146, 201);
+    color: white;
+    border: 1px solid rgb(13, 146, 201);
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.divider {
+    background: white;
+}
+
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px;
+
+    &-link{
+        // margin-top: 40px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    &-link-telegram{
+        background-image: url(../../images/telegram.png);
+    }
+
+    &-link-whatsapp{
+        background-image: url(../../images/whatsapp.png);
+    }
+
+    &-link-email{
+        background-image: url(../../images/email.png);
+    }
+}
