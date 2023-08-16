@@ -17,7 +17,7 @@
 
 .photo {
     margin-top: 40px;
-    background-image: url(../../images/me1.jpeg);
+    background-image: url(../../images/me1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     width: 160px;
@@ -86,14 +86,14 @@
     }
 
     &-link-telegram {
-        background-image: url(../../images/telegram.png);
+        background-image: url(../../images/telegram.webp);
     }
 
     &-link-whatsapp {
-        background-image: url(../../images/whatsapp.png);
+        background-image: url(../../images/whatsapp.webp);
     }
 
     &-link-email {
-        background-image: url(../../images/email.png);
+        background-image: url(../../images/email.webp);
     }
 }
