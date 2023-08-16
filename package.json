@@ -5,6 +5,7 @@
   "private": false,
   "license": "RAZINA ELINA 2023",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "antd": "^5.6.4",
     "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0",
