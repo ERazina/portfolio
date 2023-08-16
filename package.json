@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": ".",
   "private": false,
-  "license": "RAZINA ELINA 2023",
+  "license": "UNLICENSED",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "antd": "^5.6.4",
