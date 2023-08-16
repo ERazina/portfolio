@@ -13,9 +13,9 @@ const Resume = () => {
 
       <h2>Contact me</h2>
       <div className="social">
-        <a href="https://t.me/Elina_Razina" className="social-link social-link-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><span style={{display: none}}>Telegram link</span></a>
-        <a href="https://wa.me/79112548531" className="social-link social-link-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><span style={{display: none}}>WhatsApp link</span></a>
-        <a href="mailto:elina.razina@gmail.com" className="social-link social-link-email" target="_blank" rel="noopener noreferrer" aria-label="Mail"><span style={{display: none}}>Email link</span></a>
+        <a href="https://t.me/Elina_Razina" className="social-link social-link-telegram" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><span style={{display: 'none'}}>Telegram link</span></a>
+        <a href="https://wa.me/79112548531" className="social-link social-link-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><span style={{display: 'none'}}>WhatsApp link</span></a>
+        <a href="mailto:elina.razina@gmail.com" className="social-link social-link-email" target="_blank" rel="noopener noreferrer" aria-label="Mail"><span style={{display: 'none'}}>Email link</span></a>
       </div>
      
       <Divider className="divider"/>
