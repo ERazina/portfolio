@@ -1,27 +1,21 @@
 import React from 'react';
-import { useTranslation } from "react-i18next";
 import { Divider } from 'antd';
 import './Resume.scss';
 
 const Resume = () => {
-
-  const { t } = useTranslation();
-
   return (
    <div className="container resume">
       <div className="photo" />
-      <h1>t('name')</h1>
+      <h1>Elina Razina</h1>
       <h2>Frontend developer</h2>
-      <div className="location">t('location')</div>
-      <a href="./Elina_Razina_CV.pdf" download className="link-cv" alt="Download CV">Download CV</a>
-
-
+      <div className="location">Saint-Petersburg, Russia</div>
+      <a href="./Elina_Razina_CV.pdf" download className="link-cv" aria-label="Download CV">Download CV</a>
 
       <h2>Contact me</h2>
       <div className="social">
-        <a href="https://t.me/Elina_Razina" className="social-link social-link-telegram" target="_blank" alt="telegraam social link"></a>
-        <a href="https://wa.me/79112548531" className="social-link social-link-whatsapp" target="_blank" alt="whatsApp social link"></a>
-        <a href="mailto:elina.razina@gmail.com" className="social-link social-link-email" target="_blank" alt="email link"></a>
+        <a href="https://t.me/Elina_Razina" className="social-link social-link-telegram" target="_blank" aria-label="Telegram"></a>
+        <a href="https://wa.me/79112548531" className="social-link social-link-whatsapp" target="_blank" aria-label="WhatsApp"></a>
+        <a href="mailto:elina.razina@gmail.com" className="social-link social-link-email" target="_blank" aria-label="Mail"></a>
       </div>
      
       <Divider className="divider"/>
@@ -39,7 +33,6 @@ const Resume = () => {
         <span class="badge skills-badge">MOBX</span>
         <span class="badge skills-badge">RESPONSIVE</span>
       </div>
-      <Divider className="divider"/>
       
     </div>
   );
